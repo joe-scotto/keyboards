@@ -139,10 +139,10 @@
 
         function_layer {
             bindings =<
-                &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &none  &none  &to GAME  &to MAC  &to WINDOWS &trans
-                &trans &kp F1       &kp F2       &kp F3       &kp F4       &kp F5        &kp 6  &kp F7 &kp F8 &kp F9        &kp F10     &trans
-                &trans &kp F11      &none        &bt BT_CLR   &bootloader  &none         &none  &none  &none  &none         &kp F12     &trans
-                &trans &trans       &trans       &trans       &trans       &trans        &trans &trans &trans &trans        &trans      &trans
+                &trans &bt BT_SEL 0 &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &none  &none  &to GAME  &to MAC  &to WINDOWS &trans
+                &trans &kp F1       &kp F2         &kp F3       &kp F4       &kp F5        &kp 6  &kp F7 &kp F8 &kp F9        &kp F10     &trans
+                &trans &kp F11      &studio_unlock &bt BT_CLR   &bootloader  &none         &none  &none  &none  &none         &kp F12     &trans
+                &trans &trans       &trans         &trans       &trans       &trans        &trans &trans &trans &trans        &trans      &trans
             >;
         };
     };
